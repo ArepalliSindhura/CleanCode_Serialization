@@ -17,7 +17,7 @@ public class Interest {
 			p.println("enter the rate");
 			int rate = sc.nextInt();
 			p.println("Simple interest is " + ((amount * time * rate)/100));
-			p.println("Compound interest is " + ((amount * Math.pow (1 + (rate/100), time)) - amount));
+			p.println("Compound interest is " + ((amount * Math.pow(1 + (rate/100), time)) - amount));
 	}
 
 }

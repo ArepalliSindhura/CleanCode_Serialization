@@ -25,8 +25,24 @@ public class Construction {
 			ch = sc.nextInt();
 			switch(ch){
 			case 1:
-				
+				p.println("You have selected Standard materials!!");
+				p.println("The cost estimation is " + (area * 1200) + "INR");
+				break;
+			case 2:
+				p.println("Above standard material");
+				p.println("The cost estimation is " + (area * 1500) + "INR");
+				break;
+			case 3:
+				p.println("High Standard materials");
+				p.println("The cost estimation is " + (area * 1800) + "INR");
+				break;
+			case 4:
+				p.println("High standard material and fully automated");
+				p.println("The cost estimation is " + (area * 2500) + "INR");
+				break;
+			default:
+				p.println("Please enter a valid option ");
 			}
+		}
 	}
 
-}
